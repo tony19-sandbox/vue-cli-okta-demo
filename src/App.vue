@@ -1,11 +1,11 @@
 <script setup lang="ts">
 // import { getCurrentInstance } from 'vue'
 // import type { OktaAuth } from '@okta/okta-auth-js'
-// const oktaAuth = getCurrentInstance()?.appContext.app.config.globalProperties.$auth as OktaAuth
+// const oktaAuth = getCurrentInstance()!!.appContext.app.config.globalProperties.$auth as OktaAuth
 
 import { oktaAuth } from './auth'
-const login = () => oktaAuth?.signInWithRedirect()
-const logout = () => oktaAuth?.signOut()
+const login = () => oktaAuth.signInWithRedirect()
+const logout = () => oktaAuth.signOut()
 </script>
 
 <template>
