@@ -1,24 +1,3 @@
-# vue-cli-okta-demo
+> Demonstrates using [`okta-vue`](https://github.com/okta/okta-vue) with [Vue CLI](https://cli.vuejs.org/) and [Vue 3](https://v3.vuejs.org/)
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://stackoverflow.com/q/70910754/6277151
